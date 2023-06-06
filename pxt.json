@@ -2,14 +2,13 @@
     "name": "HashiraseyoKit",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
         "main.blocks",
-        "main.ts",
-        "README.md"
+        "README.md",
+        "hashiraseyo.ts",
+        "_locales/ja/hashiraseyo-string.json"
     ],
     "testFiles": [
         "test.ts"
@@ -21,5 +20,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
